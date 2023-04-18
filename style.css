@@ -136,6 +136,11 @@ h5 {
     height: auto !important;
 }
 
+.img-content {
+    width: 100%;
+    height: auto !important;
+}
+
 .pic-card{
     margin-top: 15px;
 }
