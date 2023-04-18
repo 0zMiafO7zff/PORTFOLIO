@@ -47,3 +47,63 @@ hr{
     padding: 20px 0;
     color: rgba(51,51,51,0.5);
 }
+
+.content {
+    display: none;
+}
+
+.pj{
+    border-radius: 30px 30px 30px 30px;
+    
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.port img{
+    max-width: 100%;
+    height: auto !important;
+}
+
+.pic-card{
+    margin-top: 15px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid black;
+    border-color: black transparent black transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .fadecontent { 
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
