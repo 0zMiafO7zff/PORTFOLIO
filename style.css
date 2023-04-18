@@ -130,3 +130,7 @@ h5 {
     max-width: 100%;
     height: auto !important;
 }
+
+.pic-card{
+    margin-top: 15px;
+}
