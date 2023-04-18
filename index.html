@@ -24,13 +24,13 @@
     
 </head>
 <body>
-
-    <nav class="navbar fixed-top shadow-sm navbar-expand lg bg-light navbar-light">
+    <nav class="navbar navbar-wrapper fixed-top shadow-sm navbar-expand lg bg-light navbar-light">
         <a class="navbar-brand ms-3" href="#" style="font-family: 'Varela Round', sans-serif;">Kittipan Jongjienwattanakul</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon1"><span></span><span></span><span></span></div>
+  </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
           <div class="navbar-nav ms-auto me-3" style="font-family: 'Varela Round', sans-serif;">
             <strong><a class="nav-item nav-link active me-3" href="#">Home <span class="sr-only">(current)</span></a></strong>
             <a class="nav-item nav-link me-1" href="#about">About</a>
@@ -40,9 +40,9 @@
             <a class="nav-item nav-link me-1" href="#certificate">certificate</a>
             <a class="nav-item nav-link me-1" href="#contact">contact</a>
           </div>
+          
         </div>
       </nav>
-    
     <div class="container" id ="home">
         <img class="logo" src="https://scontent.fkdt3-1.fna.fbcdn.net/v/t39.30808-6/338129953_750065693390422_5638186072988988359_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFXwO93-zthc97wBV-FEW_HeVqUcig6YQR5WpRyKDphBPLWvlaeyhZ38oTTrcw3rNkGTVRb8tmkcWhSvSlSXIYf&_nc_ohc=dEKUhs0ZD9wAX9hM8gW&_nc_ht=scontent.fkdt3-1.fna&oh=00_AfBBDMA83-UdV4RUr4hg4hn3FAHpsDbSqdujbo9zlJPTtw&oe=6441ED9B" alt="profile">
     <h1 class="name" style="font-family: 'Varela Round', sans-serif;">Kittipan Jongjienwattanakul</h1>
@@ -194,29 +194,36 @@
     
     <div class="col-sm-12">
         <div class="port">
-            <a href="#"><img src="images/star.jpg" alt="" width="520px"style="margin-top: 20px; margin-bottom: 50px;"></a>
+            <a href="#"><img class=" border border-dark" src="images/star.jpg" alt="" width="520px"style="margin-top: 20px; margin-bottom: 50px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);"></a>
         </div>
     </div>
     <br><br>
     <h4 id="contact">Contact Me</h4>
+    
     <hr>
-    <form action="" style="font-family: 'Varela Round';">
+    <p style="text-align:center;color:red;font-family: 'Varela Round';">Close</p>
+    <form id="contact-form" action="" style="font-family: 'Varela Round';">
         <div class="row" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);">
 
             <div class="col mb-3 mt-4">
                 <label for="name" >Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" class="form-control" required id="name" name="name" placeholder="Your Name" disabled>
                 
             </div>
-            <div class="col mb-3 mt-4">
+            <div class="col mt-4">
                 <label for="email">Email</label>
-                    <input type="email" class="form-control" placeholder="Your Email">
+                    <input type="text" class="form-control" required id="email" name="email" placeholder="Your Email" disabled>
                 
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="subject">Subject</label>
+                    <input type="text" class="form-control" required id="subject" name="subject" disabled>
             </div>
             <div>
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control mb-3 me-3" id="exampleFormControlTextarea1" rows="4"></textarea>
-                <button class="btn btn-success mb-4">Send</button>
+                <textarea class="form-control mb-3 me-3" id="message" name="message"rows="4" disabled></textarea>
+
+                <button type="submit" name="sendmail" class="btn btn-success mb-4">Send</button>
             </div>
         </div>
         <div class="footer mt-4">

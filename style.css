@@ -1,12 +1,13 @@
 
 body{
+    margin-top: 50px;
     font-family: 'Varela Round', sans-serif;
     font-family: 'Kanit', sans-serif;
 }
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
+
 }
 
 hr{
@@ -134,3 +135,4 @@ h5 {
 .pic-card{
     margin-top: 15px;
 }
+
