@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 .container{
     max-width: 1000px;
@@ -60,6 +61,7 @@ span.slogan{
 }
 
 h4 {
+    font-family: 'Varela Round';
     font-weight: bold;
     text-align: center;
     font-size: 25px;
@@ -69,6 +71,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Varela Round';
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -84,6 +87,7 @@ h5 {
 }
 
 .textabout{
+    font-family: 'Varela Round';
     color: gray;
     font-weight: bold;
     margin-bottom: 25px;
@@ -91,6 +95,7 @@ h5 {
 
 
 .textedu{
+    font-family: 'Varela Round';
     text-align: left;
     color: gray;
     font-weight: bold;

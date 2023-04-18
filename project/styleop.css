@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.head{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.img-preview{
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 20px 20px 20px 20px;
+    width: 800px;
+    height: 400px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+hr{
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(51,51,51,0.5);
+}
