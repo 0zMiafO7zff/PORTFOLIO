@@ -23,20 +23,40 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body onload="activeShowPage()">
+<body onload="activeShowPage()" class="bb">
 
     <div class="lds-dual-ring" id="preLoader"></div>
 
     <div id="pageContent" class="content fadecontent">
+    <header>
+    <nav class="navbar fixed-top">
+        <ul class="nav-bar shadow">
+            <li class="logo"><a href=""><img src="images/logome3.png" alt=""></a></li>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="#"><strong>Home</strong></a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <label style="color:white;"for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
 
-    <nav class="navbar navbar-wrapper fixed-top shadow-sm navbar-expand lg bg-light navbar-light">
+    <!-- <nav class="navbar navbar-wrapper fixed-top shadow-sm navbar-expand lg bg-light navbar-light">
         <a class="navbar-brand ms-3" href="#" style="font-family: 'Varela Round', sans-serif;">Kittipan Jongjienwattanakul</a>
         <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
     <div class="animated-icon1"><span></span><span></span><span></span></div>
   </button>
         <div class="collapse navbar-collapse " id="navbarCollapse">
-          <div class="navbar-nav ms-auto me-3" style="font-family: 'Varela Round', sans-serif;">
+          <div class="navbar-nav ms-auto me-3 menu" style="font-family: 'Varela Round', sans-serif;">
+            <input type="checkbox" id="check">
             <strong><a class="nav-item nav-link active me-3" href="#">Home <span class="sr-only">(current)</span></a></strong>
             <a class="nav-item nav-link me-1" href="#about">About</a>
             <a class="nav-item nav-link me-1" href="#education">Education</a>
@@ -44,12 +64,14 @@
             <a class="nav-item nav-link me-1" href="#portfolio">Portfolio</a>
             <a class="nav-item nav-link me-1" href="#certificate">certificate</a>
             <a class="nav-item nav-link me-1" href="#contact">contact</a>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
           </div>
           
         </div>
-      </nav>
+      </nav> -->
     <div class="container" id ="home">
-        <img class="logo img-content" src="https://scontent.fkdt3-1.fna.fbcdn.net/v/t39.30808-6/338129953_750065693390422_5638186072988988359_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFXwO93-zthc97wBV-FEW_HeVqUcig6YQR5WpRyKDphBPLWvlaeyhZ38oTTrcw3rNkGTVRb8tmkcWhSvSlSXIYf&_nc_ohc=dEKUhs0ZD9wAX9hM8gW&_nc_ht=scontent.fkdt3-1.fna&oh=00_AfBBDMA83-UdV4RUr4hg4hn3FAHpsDbSqdujbo9zlJPTtw&oe=6441ED9B" alt="profile">
+        <img class="logo" src="https://scontent.fkdt3-1.fna.fbcdn.net/v/t39.30808-6/338129953_750065693390422_5638186072988988359_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFXwO93-zthc97wBV-FEW_HeVqUcig6YQR5WpRyKDphBPLWvlaeyhZ38oTTrcw3rNkGTVRb8tmkcWhSvSlSXIYf&_nc_ohc=dEKUhs0ZD9wAX9hM8gW&_nc_ht=scontent.fkdt3-1.fna&oh=00_AfBBDMA83-UdV4RUr4hg4hn3FAHpsDbSqdujbo9zlJPTtw&oe=6441ED9B" alt="profile">
     <h1 class="name" style="font-family: 'Varela Round', sans-serif;">Kittipan Jongjienwattanakul</h1>
     <span class="slogan" style="font-family: 'Varela Round', sans-serif;">UX/UI Design & Web Developer</span>
     <div class="social-img text-center me-4">
@@ -68,10 +90,10 @@
     <div class="row">
         <div class="col-md-6">
             <div class="about">
-                <img style="border-radius: 20px 20px 20px 20px;box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);"src="images/Capture.PNG" alt="">
+                <img class="img-content" style="border-radius: 20px 20px 20px 20px;box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);"src="images/Capture.PNG" alt="">
             </div>
         </div>
-        <div class="col-md-6 mt-4">
+        <div class="col-md-6 mt-2">
             <h5 class="mb-3">Web & Developer</h5>
             <br>
             <div class="row">
